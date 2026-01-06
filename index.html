@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#5D4037">
+    <meta name="description" content="Trivia del Cacao - Juega y aprende">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Cacao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <section id="login-section">
+            <div class="logo-header">
+                <span class="logo-emoji">🍫</span>
+                <h1>Trivia del Cacao</h1>
+            </div>
+            <p class="welcome-text">🎮 Juega y gana premios increíbles</p>
+            <form id="login-form">
+                <div class="input-group">
+                    <span class="input-icon">👤</span>
+                    <input type="text" id="username" placeholder="Tu nombre" required>
+                </div>
+                <div class="input-group">
+                    <span class="input-icon">📧</span>
+                    <input type="email" id="email" placeholder="Tu correo" required>
+                </div>
+                <button type="submit" class="btn-primary"> Comenzar </button>
+            </form>
+        </section>
+
+        <!-- Game Section -->
+        <section id="game-section" class="hidden">
+            <div class="header-game">
+                <div class="user-info">
+                    <span class="info-icon">👤</span>
+                    <span id="user-display">Guest</span>
+                </div>
+                <div class="score-info">
+                    <span class="info-icon">⭐</span>
+                    <span id="score-display">0 pts</span>
+                </div>
+            </div>
+            <div id="question-container">
+                <div class="question-badge">❓</div>
+                <h2 id="question">Pregunta aquí</h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <!-- Botones generados por JS -->
+                </div>
+            </div>
+            <button id="next-btn" class="next-btn hidden">➡️ Siguiente</button>
+        </section>
+
+        <!-- Rewards Section -->
+        <section id="rewards-section" class="hidden">
+            <div class="celebration">🎉</div>
+            <h2 class="game-over-title">¡Juego Terminado!</h2>
+            <div class="final-score-box">
+                <span class="score-label">Tu puntaje final</span>
+                <span class="score-value">⭐ <span id="final-score">0</span> puntos</span>
+            </div>
+            <h3 class="prizes-title">🎁 Tus Premios:</h3>
+            <div id="prizes-list">
+                <!-- Premios generados según puntaje -->
+            </div>
+            <button id="restart-btn" class="btn-primary">🔄 Jugar de Nuevo</button>
+        </section>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
