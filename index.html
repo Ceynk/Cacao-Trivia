@@ -42,6 +42,10 @@
                     <span class="info-icon">⭐</span>
                     <span id="score-display">0 pts</span>
                 </div>
+                <div class="lives-info">
+                    <span class="info-icon">❤️</span>
+                    <span id="lives-display">3</span>
+                </div>
             </div>
             <div id="question-container">
                 <div class="question-badge">❓</div>
@@ -50,6 +54,16 @@
                     <!-- Botones generados por JS -->
                 </div>
             </div>
+
+            <div id="extra-life-container" class="extra-life hidden">
+                <p id="extra-life-text" class="extra-life-text">🎬 Mira el video completo para ganar 1 vida extra.</p>
+                <button id="watch-ad-btn" type="button" class="btn-primary">Ver video (+1 vida)</button>
+                <video id="ad-video" class="ad-video hidden" controls playsinline preload="metadata">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+
             <button id="next-btn" class="next-btn hidden">➡️ Siguiente</button>
         </section>
 

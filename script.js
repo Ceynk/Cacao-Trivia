@@ -11,14 +11,24 @@ const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const userDisplay = document.getElementById('user-display');
 const scoreDisplay = document.getElementById('score-display');
+const livesDisplay = document.getElementById('lives-display');
 const finalScoreElement = document.getElementById('final-score');
 const prizesListElement = document.getElementById('prizes-list');
 const restartButton = document.getElementById('restart-btn');
+const extraLifeContainer = document.getElementById('extra-life-container');
+const extraLifeText = document.getElementById('extra-life-text');
+const watchAdButton = document.getElementById('watch-ad-btn');
+const adVideo = document.getElementById('ad-video');
 
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
 let currentUser = '';
 let currentRoundIds = [];
+
+const MAX_LIVES = 3;
+let lives = MAX_LIVES;
+let extraLifeUsed = false;
+let awaitingRevive = false;
 
 // Reducido para dispositivos de bajo rendimiento
 const QUESTIONS_PER_ROUND = 5;
@@ -708,6 +718,41 @@ loginForm.addEventListener('submit', (e) => {
     startGame();
 });
 
+watchAdButton?.addEventListener('click', async () => {
+    // Mostrar video y forzar que se vea completo para otorgar la vida
+    if (!adVideo) return;
+    watchAdButton.disabled = true;
+    adVideo.classList.remove('hidden');
+    try {
+        // Algunos navegadores requieren interacción del usuario; el click ya cuenta.
+        await adVideo.play();
+    } catch (_) {
+        // Si no puede reproducir automáticamente, el usuario puede darle play manual.
+    }
+});
+
+adVideo?.addEventListener('ended', () => {
+    // Otorga UNA vida extra solo una vez.
+    if (extraLifeUsed) return;
+    extraLifeUsed = true;
+    awaitingRevive = false;
+    lives = Math.min(lives + 1, MAX_LIVES);
+    updateLivesUI();
+    hideExtraLifeOffer();
+
+    // Si el juego estaba pausado por 0 vidas, permitir continuar.
+    if (shuffledQuestions && typeof currentQuestionIndex === 'number') {
+        if (shuffledQuestions.length > currentQuestionIndex + 1) {
+            nextButton.classList.remove('hidden');
+        } else {
+            setTimeout(showRewards, 400);
+        }
+    }
+
+    // Preparar el video por si se vuelve a mostrar el contenedor (no se otorgará otra vida)
+    adVideo.currentTime = 0;
+});
+
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
     setNextQuestion();
@@ -722,6 +767,13 @@ function startGame() {
     
     score = 0;
     updateScore();
+
+    lives = MAX_LIVES;
+    extraLifeUsed = false;
+    awaitingRevive = false;
+    updateLivesUI();
+    hideExtraLifeOffer();
+
     currentRoundIds = [];
 
     // Obtener preguntas únicas por usuario usando localStorage
@@ -794,12 +846,65 @@ function selectAnswer(e) {
     if (correct) {
         score += 10;
         updateScore();
+    } else {
+        loseLife();
+    }
+
+    // Si el usuario quedó sin vidas, dar opción de video (una sola vez). Si no, termina.
+    if (lives <= 0) {
+        if (!extraLifeUsed) {
+            awaitingRevive = true;
+            showExtraLifeOffer('😵 Te quedaste sin vidas. Mira el video completo para ganar 1 vida extra y continuar.');
+            return;
+        }
+        setTimeout(showRewards, 800);
+        return;
     }
 
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hidden');
     } else {
         setTimeout(showRewards, 1000); // Esperar un poco antes de mostrar premios
+    }
+}
+
+function loseLife() {
+    lives = Math.max(0, lives - 1);
+    updateLivesUI();
+
+    // Mostrar opción de vida extra cuando haya perdido al menos 1 vida
+    if (!extraLifeUsed && lives > 0 && lives < MAX_LIVES) {
+        showExtraLifeOffer('🎬 Mira el video completo para recuperar 1 vida.');
+    }
+}
+
+function updateLivesUI() {
+    if (!livesDisplay) return;
+    livesDisplay.innerText = `${lives}`;
+}
+
+function showExtraLifeOffer(message) {
+    if (!extraLifeContainer) return;
+    extraLifeText && (extraLifeText.innerText = message);
+    extraLifeContainer.classList.remove('hidden');
+
+    if (watchAdButton) {
+        watchAdButton.disabled = false;
+        watchAdButton.classList.toggle('hidden', extraLifeUsed);
+    }
+
+    if (adVideo) {
+        adVideo.classList.add('hidden');
+        adVideo.currentTime = 0;
+    }
+}
+
+function hideExtraLifeOffer() {
+    if (!extraLifeContainer) return;
+    extraLifeContainer.classList.add('hidden');
+    if (adVideo) {
+        adVideo.pause();
+        adVideo.classList.add('hidden');
     }
 }
 
