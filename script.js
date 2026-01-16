@@ -695,6 +695,607 @@ const questionsPool = [
         { text: 'Cosecha', correct: false },
         { text: 'Secado', correct: false },
         { text: 'Fermentación', correct: false }
+    ] },
+    // Preguntas surtidas sobre San José del Guaviare (Colombia)
+    { id: 111, question: '¿San José del Guaviare es la capital de qué departamento?', answers: [
+        { text: 'Guaviare', correct: true },
+        { text: 'Guainía', correct: false },
+        { text: 'Vaupés', correct: false },
+        { text: 'Meta', correct: false }
+    ] },
+    { id: 112, question: '¿En qué país se encuentra San José del Guaviare?', answers: [
+        { text: 'Colombia', correct: true },
+        { text: 'Ecuador', correct: false },
+        { text: 'Perú', correct: false },
+        { text: 'Brasil', correct: false }
+    ] },
+    { id: 113, question: '¿Qué río pasa junto a San José del Guaviare y le da nombre al territorio?', answers: [
+        { text: 'Río Guaviare', correct: true },
+        { text: 'Río Magdalena', correct: false },
+        { text: 'Río Cauca', correct: false },
+        { text: 'Río Atrato', correct: false }
+    ] },
+    { id: 114, question: 'San José del Guaviare se ubica en una zona de transición entre dos grandes regiones naturales. ¿Cuáles?', answers: [
+        { text: 'Orinoquía y Amazonía', correct: true },
+        { text: 'Caribe y Pacífico', correct: false },
+        { text: 'Andina e Insular', correct: false },
+        { text: 'Páramo y Desierto', correct: false }
+    ] },
+    { id: 115, question: '¿Qué tipo de clima predomina en San José del Guaviare?', answers: [
+        { text: 'Tropical cálido', correct: true },
+        { text: 'Frío de alta montaña', correct: false },
+        { text: 'Mediterráneo', correct: false },
+        { text: 'Polar', correct: false }
+    ] },
+    { id: 116, question: '¿Cuál es un atractivo natural reconocido en el área de La Lindosa?', answers: [
+        { text: 'Arte rupestre', correct: true },
+        { text: 'Géiseres volcánicos', correct: false },
+        { text: 'Glaciares', correct: false },
+        { text: 'Fiordos', correct: false }
+    ] },
+    { id: 117, question: 'La Serranía de La Lindosa es conocida especialmente por:', answers: [
+        { text: 'Formaciones rocosas y paisajes', correct: true },
+        { text: 'Rascacielos históricos', correct: false },
+        { text: 'Campos de nieve', correct: false },
+        { text: 'Dunas gigantes costeras', correct: false }
+    ] },
+    { id: 118, question: '¿Qué código IATA tiene el aeropuerto de San José del Guaviare?', answers: [
+        { text: 'SJE', correct: true },
+        { text: 'BOG', correct: false },
+        { text: 'MDE', correct: false },
+        { text: 'CTG', correct: false }
+    ] },
+    { id: 119, question: '¿Cuál de estos atractivos se asocia con la Serranía de La Lindosa (cerca de San José del Guaviare)?', answers: [
+        { text: 'Puerta de Orión', correct: true },
+        { text: 'Caño Cristales', correct: false },
+        { text: 'Cabo de la Vela', correct: false },
+        { text: 'Piedra del Peñol', correct: false }
+    ] },
+    { id: 120, question: '¿Qué sitio cercano a San José del Guaviare es conocido por arte rupestre?', answers: [
+        { text: 'Cerro Azul', correct: true },
+        { text: 'Monserrate', correct: false },
+        { text: 'Ciudad Perdida', correct: false },
+        { text: 'Plaza Botero', correct: false }
+    ] },
+    { id: 121, question: '¿Cuál es una forma de movilidad fluvial tradicional en la región?', answers: [
+        { text: 'Navegación por ríos', correct: true },
+        { text: 'Teleféricos urbanos', correct: false },
+        { text: 'Tranvías subterráneos', correct: false },
+        { text: 'Túneles submarinos', correct: false }
+    ] },
+    { id: 122, question: '¿Cuál de estos ecosistemas es común en el departamento del Guaviare?', answers: [
+        { text: 'Bosque tropical', correct: true },
+        { text: 'Tundra ártica', correct: false },
+        { text: 'Taiga boreal', correct: false },
+        { text: 'Matorral mediterráneo', correct: false }
+    ] },
+    { id: 123, question: '¿Qué tipo de fauna se puede avistar en el área de San José del Guaviare?', answers: [
+        { text: 'Aves, monos y reptiles', correct: true },
+        { text: 'Pingüinos y focas', correct: false },
+        { text: 'Osos polares', correct: false },
+        { text: 'Canguros', correct: false }
+    ] },
+    { id: 124, question: '¿Cuál es una práctica recomendada para visitar sitios naturales del Guaviare?', answers: [
+        { text: 'Ir con guía local y respetar señalización', correct: true },
+        { text: 'Dejar basura “para no cargar”', correct: false },
+        { text: 'Rayar rocas para “marcar” la visita', correct: false },
+        { text: 'Extraer plantas como recuerdo', correct: false }
+    ] },
+    { id: 125, question: '¿Qué elemento natural es clave para la vida y el transporte en la zona?', answers: [
+        { text: 'Los ríos', correct: true },
+        { text: 'Los glaciares', correct: false },
+        { text: 'Los mares', correct: false },
+        { text: 'Los volcanes activos', correct: false }
+    ] },
+    { id: 126, question: '¿Cuál de estos productos agrícolas es común en zonas cálidas como Guaviare?', answers: [
+        { text: 'Yuca', correct: true },
+        { text: 'Trigo de páramo', correct: false },
+        { text: 'Uvas de clima mediterráneo', correct: false },
+        { text: 'Manzanas de alta montaña', correct: false }
+    ] },
+    { id: 127, question: '¿Qué característica describe bien a San José del Guaviare como destino?', answers: [
+        { text: 'Puerta a experiencias de naturaleza y cultura', correct: true },
+        { text: 'Ciudad costera con puerto marítimo', correct: false },
+        { text: 'Capital nevada con pistas de hielo', correct: false },
+        { text: 'Isla con arrecifes tropicales', correct: false }
+    ] },
+    { id: 128, question: '¿Qué significa “arte rupestre” en el contexto de La Lindosa?', answers: [
+        { text: 'Pinturas y grabados antiguos en roca', correct: true },
+        { text: 'Esculturas hechas con hielo', correct: false },
+        { text: 'Murales modernos con aerosol', correct: false },
+        { text: 'Figuras en arena de playa', correct: false }
+    ] },
+    { id: 129, question: '¿Qué práctica apoya el turismo responsable en Guaviare?', answers: [
+        { text: 'No tocar ni alterar el arte rupestre', correct: true },
+        { text: 'Llevarse “un pedacito” de roca', correct: false },
+        { text: 'Encender fogatas en cualquier sitio', correct: false },
+        { text: 'Alimentar fauna silvestre', correct: false }
+    ] },
+    { id: 130, question: '¿Cuál de estas opciones describe mejor una “serranía”?', answers: [
+        { text: 'Conjunto de colinas o montañas', correct: true },
+        { text: 'Océano con islas', correct: false },
+        { text: 'Planicie cubierta de hielo', correct: false },
+        { text: 'Desierto de dunas', correct: false }
+    ] },
+    { id: 131, question: 'San José del Guaviare está asociado a paisajes de:', answers: [
+        { text: 'Selva, sabanas y ríos', correct: true },
+        { text: 'Glaciares y volcanes nevados', correct: false },
+        { text: 'Acantilados marinos', correct: false },
+        { text: 'Desiertos costeros', correct: false }
+    ] },
+    { id: 132, question: '¿Qué forma de energía renovable es comúnmente viable en zonas rurales del Guaviare?', answers: [
+        { text: 'Solar', correct: true },
+        { text: 'Mareomotriz (mareas)', correct: false },
+        { text: 'Geotérmica de alta montaña', correct: false },
+        { text: 'Energía de olas oceánicas', correct: false }
+    ] },
+    { id: 133, question: '¿En Colombia, qué huso horario usa San José del Guaviare?', answers: [
+        { text: 'UTC−5', correct: true },
+        { text: 'UTC+1', correct: false },
+        { text: 'UTC+9', correct: false },
+        { text: 'UTC−3', correct: false }
+    ] },
+    { id: 134, question: '¿Qué tipo de cuerpo de agua es el río Guaviare?', answers: [
+        { text: 'Río de agua dulce', correct: true },
+        { text: 'Mar interior', correct: false },
+        { text: 'Golfo oceánico', correct: false },
+        { text: 'Arrecife coralino', correct: false }
+    ] },
+    { id: 135, question: '¿Qué actividad económica suele existir en municipios amazónicos y de transición como San José del Guaviare?', answers: [
+        { text: 'Comercio y servicios locales', correct: true },
+        { text: 'Pesca de altura en mar', correct: false },
+        { text: 'Industria naviera oceánica', correct: false },
+        { text: 'Minería de carbón a gran escala en alta montaña', correct: false }
+    ] },
+    { id: 136, question: 'Un ejemplo de “biodiversidad” en Guaviare es:', answers: [
+        { text: 'Gran variedad de plantas y animales', correct: true },
+        { text: 'Un solo tipo de árbol en toda la región', correct: false },
+        { text: 'Ausencia total de insectos', correct: false },
+        { text: 'Solo fauna marina', correct: false }
+    ] },
+    { id: 137, question: '¿Qué práctica protege los ecosistemas al visitar ríos y cascadas?', answers: [
+        { text: 'Usar bloqueador biodegradable y no contaminar', correct: true },
+        { text: 'Lavar motos dentro del río', correct: false },
+        { text: 'Botar residuos orgánicos “porque se degradan”', correct: false },
+        { text: 'Usar jabón en el agua', correct: false }
+    ] },
+    { id: 138, question: '¿Qué tipo de turismo es más coherente con el potencial del Guaviare?', answers: [
+        { text: 'Turismo de naturaleza', correct: true },
+        { text: 'Turismo de nieve', correct: false },
+        { text: 'Cruceros de mar', correct: false },
+        { text: 'Turismo de fiordos', correct: false }
+    ] },
+    { id: 139, question: '¿Qué se recomienda para el avistamiento de fauna en Guaviare?', answers: [
+        { text: 'Mantener distancia y silencio', correct: true },
+        { text: 'Perseguir animales para fotos', correct: false },
+        { text: 'Alimentarlos con snacks', correct: false },
+        { text: 'Tocarlos para que “no tengan miedo”', correct: false }
+    ] },
+    { id: 140, question: '¿Cuál de estos lugares se asocia con la Serranía de La Lindosa en Guaviare?', answers: [
+        { text: 'Ciudad de Piedra', correct: true },
+        { text: 'Desierto de la Tatacoa', correct: false },
+        { text: 'Salinas de Manaure', correct: false },
+        { text: 'Ciénaga Grande de Santa Marta', correct: false }
+    ] },
+    { id: 141, question: '¿Cuál es una razón por la que se debe evitar tocar pinturas rupestres?', answers: [
+        { text: 'Se deterioran con el contacto y la grasa de la piel', correct: true },
+        { text: 'Porque cambian de color para siempre', correct: false },
+        { text: 'Porque “se activan” alarmas automáticas', correct: false },
+        { text: 'Porque son de plástico', correct: false }
+    ] },
+    { id: 142, question: 'En términos de división política, San José del Guaviare es un:', answers: [
+        { text: 'Municipio', correct: true },
+        { text: 'País', correct: false },
+        { text: 'Continente', correct: false },
+        { text: 'Océano', correct: false }
+    ] },
+    { id: 143, question: '¿Qué instrumento es común en músicas llaneras que pueden escucharse en la región?', answers: [
+        { text: 'Arpa', correct: true },
+        { text: 'Gaita escocesa', correct: false },
+        { text: 'Balalaika', correct: false },
+        { text: 'Sitar', correct: false }
+    ] },
+    { id: 144, question: '¿Cuál es un ejemplo de gastronomía típica de ríos amazónicos y llaneros?', answers: [
+        { text: 'Pescado de río', correct: true },
+        { text: 'Paella marina', correct: false },
+        { text: 'Salmón ahumado nórdico', correct: false },
+        { text: 'Langosta caribeña', correct: false }
+    ] },
+    { id: 145, question: '¿Qué elemento del paisaje suele ser protagonista en fotos de Guaviare?', answers: [
+        { text: 'Rocas y ríos en selva', correct: true },
+        { text: 'Rascacielos frente al mar', correct: false },
+        { text: 'Dunas con camellos', correct: false },
+        { text: 'Catedrales góticas nevadas', correct: false }
+    ] },
+    { id: 146, question: '¿Qué tipo de ropa es más adecuada para visitar San José del Guaviare?', answers: [
+        { text: 'Ligera, fresca y de manga larga (protección solar)', correct: true },
+        { text: 'Abrigo pesado y guantes', correct: false },
+        { text: 'Traje de nieve', correct: false },
+        { text: 'Traje de neopreno para agua helada', correct: false }
+    ] },
+    { id: 147, question: '¿Qué se debe priorizar al caminar por senderos naturales?', answers: [
+        { text: 'Seguir rutas señalizadas', correct: true },
+        { text: 'Abrir atajos cortando vegetación', correct: false },
+        { text: 'Entrar a cuevas sin guía', correct: false },
+        { text: 'Pisar nidos para “ver qué hay”', correct: false }
+    ] },
+    { id: 148, question: '¿Qué práctica ayuda a reducir el impacto ambiental del turista?', answers: [
+        { text: 'Llevar botella reutilizable', correct: true },
+        { text: 'Comprar botellas desechables para cada tramo', correct: false },
+        { text: 'Usar pajillas plásticas siempre', correct: false },
+        { text: 'Quemar residuos para “no cargar”', correct: false }
+    ] },
+    { id: 149, question: 'Si vas por un sendero en Guaviare, ¿qué es lo correcto sobre “marcar” el camino?', answers: [
+        { text: 'No se marca: se sigue la señalización y la guía', correct: true },
+        { text: 'Pintar flechas en las rocas con aerosol', correct: false },
+        { text: 'Romper ramas para dejar “señales”', correct: false },
+        { text: 'Amarrar cintas plásticas en los árboles', correct: false }
+    ] },
+    { id: 150, question: '¿Cuál de estos es un buen comportamiento en un área con arte rupestre?', answers: [
+        { text: 'Tomar fotos sin flash y sin tocar', correct: true },
+        { text: 'Raspar la roca para “ver mejor” el dibujo', correct: false },
+        { text: 'Pintar encima para “resaltar”', correct: false },
+        { text: 'Mojar con agua y jabón', correct: false }
+    ] },
+    { id: 151, question: 'San José del Guaviare es conocido como un punto de partida para explorar:', answers: [
+        { text: 'La Serranía de La Lindosa y sitios naturales cercanos', correct: true },
+        { text: 'Arrecifes de San Andrés', correct: false },
+        { text: 'Nevados andinos', correct: false },
+        { text: 'Desiertos costeros', correct: false }
+    ] },
+    { id: 152, question: '¿Qué opción describe mejor el turismo comunitario?', answers: [
+        { text: 'Visitar con apoyo de guías y emprendimientos locales', correct: true },
+        { text: 'Ignorar normas y entrar sin permiso', correct: false },
+        { text: 'Comprar todo afuera y no consumir local', correct: false },
+        { text: 'Evitar cualquier interacción cultural', correct: false }
+    ] },
+    { id: 153, question: '¿Qué objeto es útil para las caminatas en clima cálido y húmedo?', answers: [
+        { text: 'Repelente de insectos', correct: true },
+        { text: 'Cadena para nieve', correct: false },
+        { text: 'Anticongelante para radiador', correct: false },
+        { text: 'Calentador portátil', correct: false }
+    ] },
+    { id: 154, question: '¿Qué es una “formación rocosa” como las de La Lindosa?', answers: [
+        { text: 'Estructura natural de piedra moldeada por el tiempo', correct: true },
+        { text: 'Edificio construido con ladrillo', correct: false },
+        { text: 'Puente metálico industrial', correct: false },
+        { text: 'Muelle marítimo', correct: false }
+    ] },
+    { id: 155, question: '¿Qué aspecto cultural puede encontrarse en recorridos guiados del Guaviare?', answers: [
+        { text: 'Relatos y memoria local sobre el territorio', correct: true },
+        { text: 'Ópera vienesa del siglo XVIII como tradición principal', correct: false },
+        { text: 'Fiestas de nieve', correct: false },
+        { text: 'Carnavales de hielo', correct: false }
+    ] },
+    { id: 156, question: '¿Qué práctica apoya la conservación del agua en viajes?', answers: [
+        { text: 'Reducir el uso de jabones y químicos cerca de ríos', correct: true },
+        { text: 'Verter aceite de cocina en el suelo', correct: false },
+        { text: 'Lavar ropa directamente en el río con detergente', correct: false },
+        { text: 'Tirar colillas al agua', correct: false }
+    ] },
+    { id: 157, question: '¿Qué opción es un ejemplo de “senderismo”?', answers: [
+        { text: 'Caminar por rutas naturales', correct: true },
+        { text: 'Esquiar en nieve', correct: false },
+        { text: 'Navegar en altamar', correct: false },
+        { text: 'Volar en parapente sobre acantilados marinos', correct: false }
+    ] },
+    { id: 158, question: '¿Qué elemento ayuda a la seguridad en recorridos por naturaleza?', answers: [
+        { text: 'Hidratarse y llevar agua suficiente', correct: true },
+        { text: 'Evitar avisar a alguien a dónde se va', correct: false },
+        { text: 'Salir sin mapa ni guía', correct: false },
+        { text: 'Desestimar el clima', correct: false }
+    ] },
+    { id: 159, question: '¿Cuál es un ejemplo de “turismo de observación” en Guaviare?', answers: [
+        { text: 'Avistamiento de aves', correct: true },
+        { text: 'Carreras de trineos', correct: false },
+        { text: 'Safari de camellos', correct: false },
+        { text: 'Pesca en hielo', correct: false }
+    ] },
+    { id: 160, question: '¿Cuál es una recomendación al tomar fotos de fauna silvestre?', answers: [
+        { text: 'No usar flash a corta distancia', correct: true },
+        { text: 'Aproximarse hasta tocar al animal', correct: false },
+        { text: 'Perseguirlo para que mire la cámara', correct: false },
+        { text: 'Bloquearle el paso', correct: false }
+    ] },
+    { id: 161, question: '¿Qué tipo de paisaje es común al navegar por el río Guaviare?', answers: [
+        { text: 'Bosques ribereños', correct: true },
+        { text: 'Acantilados glaciares', correct: false },
+        { text: 'Playas coralinas', correct: false },
+        { text: 'Campos de hielo', correct: false }
+    ] },
+    { id: 162, question: '¿Qué significa “municipio capital” en Colombia?', answers: [
+        { text: 'La ciudad principal donde funciona el gobierno departamental', correct: true },
+        { text: 'El barrio más antiguo de un pueblo', correct: false },
+        { text: 'La isla principal de un archipiélago', correct: false },
+        { text: 'El punto más alto de una cordillera', correct: false }
+    ] },
+    { id: 163, question: '¿Cuál es una buena forma de apoyar a emprendedores locales en San José del Guaviare?', answers: [
+        { text: 'Comprar artesanías y servicios de guianza local', correct: true },
+        { text: 'Regatear hasta pagar casi nada', correct: false },
+        { text: 'Consumir solo marcas importadas', correct: false },
+        { text: 'Evitar el comercio local', correct: false }
+    ] },
+    { id: 164, question: '¿Qué tipo de botas son recomendables para senderos con barro o humedad?', answers: [
+        { text: 'Botas de trekking', correct: true },
+        { text: 'Botas de esquí', correct: false },
+        { text: 'Patines de hielo', correct: false },
+        { text: 'Zapatos de tacón', correct: false }
+    ] },
+    { id: 165, question: '¿Qué representa la biodiversidad para el turismo del Guaviare?', answers: [
+        { text: 'Oportunidad de educación ambiental y conservación', correct: true },
+        { text: 'Un problema que debe eliminarse', correct: false },
+        { text: 'Algo exclusivo de ciudades costeras', correct: false },
+        { text: 'Una tradición europea', correct: false }
+    ] },
+    { id: 166, question: '¿Qué es recomendable llevar en una caminata por clima tropical?', answers: [
+        { text: 'Sombrero o gorra', correct: true },
+        { text: 'Guantes térmicos de invierno', correct: false },
+        { text: 'Botas con crampones', correct: false },
+        { text: 'Bufanda de lana gruesa', correct: false }
+    ] },
+    { id: 167, question: '¿Qué opción describe mejor un “bosque de galería”?', answers: [
+        { text: 'Bosque que acompaña el curso de un río', correct: true },
+        { text: 'Bosque plantado en interiores de edificios', correct: false },
+        { text: 'Bosque submarino', correct: false },
+        { text: 'Bosque de hielo', correct: false }
+    ] },
+    { id: 168, question: '¿Qué práctica ayuda a cuidar los senderos naturales?', answers: [
+        { text: 'No salirse del camino para evitar erosión', correct: true },
+        { text: 'Caminar por cualquier parte “para explorar”', correct: false },
+        { text: 'Arrancar plantas para despejar', correct: false },
+        { text: 'Romper ramas como señal', correct: false }
+    ] },
+    { id: 169, question: '¿Cuál de estas actividades es compatible con el turismo sostenible?', answers: [
+        { text: 'Recoger basura propia y ajena si es posible', correct: true },
+        { text: 'Dejar latas porque “alguien las recoge”', correct: false },
+        { text: 'Hacer grafitis en rocas', correct: false },
+        { text: 'Capturar animales para selfies', correct: false }
+    ] },
+    { id: 170, question: '¿Qué es una “pictografía” (en arte rupestre)?', answers: [
+        { text: 'Dibujo o pintura realizada en roca', correct: true },
+        { text: 'Fotografía digital', correct: false },
+        { text: 'Plano arquitectónico', correct: false },
+        { text: 'Código de barras', correct: false }
+    ] },
+    { id: 171, question: '¿Qué opción describe mejor la ubicación general del Guaviare dentro de Colombia?', answers: [
+        { text: 'Suroriente del país', correct: true },
+        { text: 'Extremo noroccidente costero', correct: false },
+        { text: 'Zona insular en el Caribe', correct: false },
+        { text: 'Centro de la cordillera nevada', correct: false }
+    ] },
+    { id: 172, question: '¿Qué significa “ecoturismo”?', answers: [
+        { text: 'Viajar con enfoque de naturaleza y conservación', correct: true },
+        { text: 'Viajar solo a centros comerciales', correct: false },
+        { text: 'Viajar exclusivamente en cruceros', correct: false },
+        { text: 'Viajar únicamente a desiertos', correct: false }
+    ] },
+    { id: 173, question: '¿Qué elemento cultural puede promoverse con turismo responsable?', answers: [
+        { text: 'Respeto por comunidades y conocimiento local', correct: true },
+        { text: 'Imposición de costumbres externas', correct: false },
+        { text: 'Burla de tradiciones', correct: false },
+        { text: 'Apropiación de piezas sin permiso', correct: false }
+    ] },
+    { id: 174, question: '¿Qué opción es una medida básica de salud en clima cálido?', answers: [
+        { text: 'Hidratación constante', correct: true },
+        { text: 'Evitar beber agua todo el día', correct: false },
+        { text: 'Usar ropa muy pesada', correct: false },
+        { text: 'No protegerse del sol', correct: false }
+    ] },
+    { id: 175, question: '¿Qué tipo de actividad educativa puede hacerse en Guaviare?', answers: [
+        { text: 'Interpretación ambiental con guías', correct: true },
+        { text: 'Visita a estaciones de esquí', correct: false },
+        { text: 'Paseos por rompehielos', correct: false },
+        { text: 'Tour por fiordos árticos', correct: false }
+    ] },
+    { id: 176, question: '¿Qué se recomienda llevar para lluvias tropicales?', answers: [
+        { text: 'Impermeable o poncho', correct: true },
+        { text: 'Sombrilla de nieve', correct: false },
+        { text: 'Bufanda térmica', correct: false },
+        { text: 'Cadena para hielo', correct: false }
+    ] },
+    { id: 177, question: '¿Qué práctica ayuda a respetar el patrimonio cultural?', answers: [
+        { text: 'No extraer piezas ni intervenir sitios', correct: true },
+        { text: 'Coleccionar fragmentos como souvenirs', correct: false },
+        { text: 'Romper rocas para “investigar”', correct: false },
+        { text: 'Pintar sobre evidencias', correct: false }
+    ] },
+    { id: 178, question: '¿Qué tipo de agua es la de los ríos de la zona?', answers: [
+        { text: 'Dulce', correct: true },
+        { text: 'Salada', correct: false },
+        { text: 'Carbonatada natural', correct: false },
+        { text: 'De mar', correct: false }
+    ] },
+    { id: 179, question: '¿Qué característica es común en ríos de llanura?', answers: [
+        { text: 'Curvas y meandros', correct: true },
+        { text: 'Cascadas de hielo', correct: false },
+        { text: 'Túneles submarinos', correct: false },
+        { text: 'Arrecifes', correct: false }
+    ] },
+    { id: 180, question: '¿Qué tipo de turismo se relaciona con el arte rupestre de Guaviare?', answers: [
+        { text: 'Turismo cultural', correct: true },
+        { text: 'Turismo de playa', correct: false },
+        { text: 'Turismo de nieve', correct: false },
+        { text: 'Turismo de crucero', correct: false }
+    ] },
+    { id: 181, question: '¿Cuál de estas acciones es adecuada en un río?', answers: [
+        { text: 'Nadar solo en zonas permitidas y seguras', correct: true },
+        { text: 'Entrar sin evaluar corrientes', correct: false },
+        { text: 'Arrojar residuos para “marcar” ruta', correct: false },
+        { text: 'Lavar vehículos en el cauce', correct: false }
+    ] },
+    { id: 182, question: '¿Qué tipo de actividad artesanal puede encontrarse en regiones amazónicas y de transición?', answers: [
+        { text: 'Artesanías con fibras naturales', correct: true },
+        { text: 'Artesanías con hielo tallado', correct: false },
+        { text: 'Artesanías con coral marino', correct: false },
+        { text: 'Artesanías con lava volcánica reciente', correct: false }
+    ] },
+    { id: 183, question: '¿Qué opción es una buena práctica para proteger la fauna?', answers: [
+        { text: 'No comprar productos de fauna silvestre', correct: true },
+        { text: 'Comprar animales como recuerdo', correct: false },
+        { text: 'Capturar mariposas para colección', correct: false },
+        { text: 'Llevarse nidos para “cuidarlos”', correct: false }
+    ] },
+    { id: 184, question: '¿Qué se recomienda respecto al ruido en recorridos por naturaleza?', answers: [
+        { text: 'Mantener volumen bajo para no espantar fauna', correct: true },
+        { text: 'Poner música a todo volumen', correct: false },
+        { text: 'Usar bocinas en senderos', correct: false },
+        { text: 'Gritar para que “se note el grupo”', correct: false }
+    ] },
+    { id: 185, question: '¿Qué es una ventaja de viajar con guía local?', answers: [
+        { text: 'Mejor orientación, seguridad e interpretación del lugar', correct: true },
+        { text: 'Evitar cualquier norma del sitio', correct: false },
+        { text: 'Entrar a zonas restringidas', correct: false },
+        { text: 'No necesitar hidratación', correct: false }
+    ] },
+    { id: 186, question: '¿Qué práctica reduce el riesgo de perderse en senderos del Guaviare?', answers: [
+        { text: 'Mantenerse con el grupo', correct: true },
+        { text: 'Separarse para explorar más rápido', correct: false },
+        { text: 'Apagar el teléfono siempre', correct: false },
+        { text: 'Entrar sin informar a nadie', correct: false }
+    ] },
+    { id: 187, question: '¿Qué elemento es importante para prevenir insolación?', answers: [
+        { text: 'Protector solar', correct: true },
+        { text: 'Sal gruesa en la piel', correct: false },
+        { text: 'Aceite de cocina', correct: false },
+        { text: 'Pintura acrílica', correct: false }
+    ] },
+    { id: 188, question: '¿Qué opción es un ejemplo de educación ambiental?', answers: [
+        { text: 'Aprender sobre especies y su conservación', correct: true },
+        { text: 'Arrancar plantas para “conocerlas”', correct: false },
+        { text: 'Perseguir animales para “estudiarlos”', correct: false },
+        { text: 'Pintar sobre rocas para “enseñar”', correct: false }
+    ] },
+    { id: 189, question: '¿Qué tipo de paisaje NO es típico de San José del Guaviare?', answers: [
+        { text: 'Fiordos con nieve', correct: true },
+        { text: 'Ríos', correct: false },
+        { text: 'Bosque tropical', correct: false },
+        { text: 'Formaciones rocosas', correct: false }
+    ] },
+    { id: 190, question: '¿Qué modo de transporte conecta a San José del Guaviare con otras ciudades del país?', answers: [
+        { text: 'Vuelos nacionales', correct: true },
+        { text: 'Ferries oceánicos', correct: false },
+        { text: 'Tren de alta velocidad continental', correct: false },
+        { text: 'Metro submarino', correct: false }
+    ] },
+    { id: 191, question: '¿Cuál es un principio del “No Dejar Rastro” aplicado al Guaviare?', answers: [
+        { text: 'Empacar toda la basura de vuelta', correct: true },
+        { text: 'Enterrar plásticos', correct: false },
+        { text: 'Quemar latas', correct: false },
+        { text: 'Dejar residuos “escondidos”', correct: false }
+    ] },
+    { id: 192, question: 'El “Raudal del Guayabero” recibe su nombre de qué río?', answers: [
+        { text: 'Río Guayabero', correct: true },
+        { text: 'Río Bogotá', correct: false },
+        { text: 'Río Sinú', correct: false },
+        { text: 'Río San Jorge', correct: false }
+    ] },
+    { id: 193, question: '¿Qué Parque Nacional Natural de la región amazónica es famoso por tepuyes y arte rupestre?', answers: [
+        { text: 'Serranía de Chiribiquete', correct: true },
+        { text: 'Tayrona', correct: false },
+        { text: 'Los Nevados', correct: false },
+        { text: 'Utría', correct: false }
+    ] },
+    { id: 194, question: '¿Qué comportamiento es más seguro ante lluvia fuerte durante una caminata?', answers: [
+        { text: 'Buscar refugio y seguir indicaciones del guía', correct: true },
+        { text: 'Cruzar ríos crecidos por atajo', correct: false },
+        { text: 'Ignorar el pronóstico y seguir igual', correct: false },
+        { text: 'Separarse del grupo', correct: false }
+    ] },
+    { id: 195, question: '¿Qué opción describe mejor el “patrimonio natural” del Guaviare?', answers: [
+        { text: 'Paisajes, especies y ecosistemas que se deben cuidar', correct: true },
+        { text: 'Solo edificios modernos', correct: false },
+        { text: 'Solo centros comerciales', correct: false },
+        { text: 'Solo carreteras', correct: false }
+    ] },
+    { id: 196, question: '¿Qué se recomienda respecto a fogatas en zonas naturales?', answers: [
+        { text: 'Evitar hacerlas y seguir normas del lugar', correct: true },
+        { text: 'Hacer fogatas en cualquier parte', correct: false },
+        { text: 'Encender fuego cerca de rocas con pictografías', correct: false },
+        { text: 'Quemar residuos plásticos', correct: false }
+    ] },
+    { id: 197, question: '¿Qué es una “ruta turística” de naturaleza?', answers: [
+        { text: 'Recorrido planificado por sitios de interés natural', correct: true },
+        { text: 'Autopista marítima', correct: false },
+        { text: 'Línea de tren subterráneo', correct: false },
+        { text: 'Puente colgante sobre el océano', correct: false }
+    ] },
+    { id: 198, question: '¿Qué tipo de paisaje ayuda a explicar por qué hay arte rupestre en la zona?', answers: [
+        { text: 'Rocas expuestas adecuadas para pinturas', correct: true },
+        { text: 'Hielo permanente', correct: false },
+        { text: 'Corales marinos', correct: false },
+        { text: 'Arena de desierto costero', correct: false }
+    ] },
+    { id: 199, question: '¿Cuál es una recomendación para proteger equipos electrónicos por la humedad?', answers: [
+        { text: 'Usar bolsa impermeable o funda', correct: true },
+        { text: 'Sumergirlos para “enfriar”', correct: false },
+        { text: 'Dejarlos expuestos a la lluvia', correct: false },
+        { text: 'Guardarlos con agua dentro', correct: false }
+    ] },
+    { id: 200, question: '¿Qué tipo de paisaje NO corresponde a una serranía como La Lindosa?', answers: [
+        { text: 'Arrecife coralino', correct: true },
+        { text: 'Afloramientos de roca', correct: false },
+        { text: 'Colinas', correct: false },
+        { text: 'Miradores naturales', correct: false }
+    ] },
+    { id: 201, question: '¿Qué valor tiene el arte rupestre para la historia?', answers: [
+        { text: 'Aporta información sobre comunidades antiguas', correct: true },
+        { text: 'Sirve solo como decoración moderna', correct: false },
+        { text: 'Es publicidad reciente', correct: false },
+        { text: 'No tiene relevancia cultural', correct: false }
+    ] },
+    { id: 202, question: '¿Cuál de estas acciones ayuda a conservar los sitios turísticos?', answers: [
+        { text: 'Respetar capacidad de carga y normas', correct: true },
+        { text: 'Entrar en grupos enormes sin control', correct: false },
+        { text: 'Dejar basura “biodegradable”', correct: false },
+        { text: 'Arrancar señalización', correct: false }
+    ] },
+    { id: 203, question: '¿Qué se recomienda para caminar en zonas con insectos?', answers: [
+        { text: 'Usar ropa de manga larga y repelente', correct: true },
+        { text: 'Usar perfume fuerte para atraerlos', correct: false },
+        { text: 'Dormir sin toldillo en zonas rurales', correct: false },
+        { text: 'No llevar agua', correct: false }
+    ] },
+    { id: 204, question: '¿Qué elemento es clave para el turismo seguro en ríos y cascadas?', answers: [
+        { text: 'Evaluar corrientes y seguir recomendaciones locales', correct: true },
+        { text: 'Saltar desde cualquier altura sin revisar', correct: false },
+        { text: 'Nadar de noche sin guía', correct: false },
+        { text: 'Ir solo y sin comunicación', correct: false }
+    ] },
+    { id: 205, question: '¿Qué tipo de actividad promueve la economía local de San José del Guaviare?', answers: [
+        { text: 'Servicios turísticos (guías, hospedaje, alimentos)', correct: true },
+        { text: 'Cruceros internacionales', correct: false },
+        { text: 'Pesca industrial de altamar', correct: false },
+        { text: 'Esquí en estaciones alpinas', correct: false }
+    ] },
+    { id: 206, question: '¿Cuál es una característica típica de los ríos amazónicos y de transición?', answers: [
+        { text: 'Gran caudal en temporadas lluviosas', correct: true },
+        { text: 'Agua salada por mareas', correct: false },
+        { text: 'Icebergs todo el año', correct: false },
+        { text: 'Olas oceánicas', correct: false }
+    ] },
+    { id: 207, question: '¿Qué opción describe mejor una visita respetuosa a comunidades?', answers: [
+        { text: 'Pedir permiso y seguir acuerdos locales', correct: true },
+        { text: 'Entrar sin avisar y grabar todo', correct: false },
+        { text: 'Tomar fotos de personas sin consentimiento', correct: false },
+        { text: 'Imponer reglas propias', correct: false }
+    ] },
+    { id: 208, question: '¿Qué elemento natural puede servir como “mirador” en zonas rocosas?', answers: [
+        { text: 'Elevaciones y afloramientos de roca', correct: true },
+        { text: 'Arrecifes submarinos', correct: false },
+        { text: 'Glaciares costeros', correct: false },
+        { text: 'Campos de nieve', correct: false }
+    ] },
+    { id: 209, question: '¿Qué tipo de relación tiene San José del Guaviare con el río Guaviare?', answers: [
+        { text: 'Río cercano clave para paisaje y actividades', correct: true },
+        { text: 'Es un río marítimo con mareas', correct: false },
+        { text: 'Es un río de agua salada', correct: false },
+        { text: 'Es un río congelado la mayor parte del año', correct: false }
+    ] },
+    { id: 210, question: '¿Qué conducta refleja turismo responsable en San José del Guaviare?', answers: [
+        { text: 'Respetar naturaleza, cultura y normas locales', correct: true },
+        { text: 'Dejar residuos para “no cargar peso”', correct: false },
+        { text: 'Tocar y rayar rocas para “recuerdo”', correct: false },
+        { text: 'Molestar fauna para fotos', correct: false }
     ] }
 ];
 
